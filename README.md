@@ -6,12 +6,16 @@ contains the SDK as well as support for the cmake build system for easy integrat
 
 You can find the latest official version at https://vicon.com/downloads/utilities-and-sdk/datastream-sdk
 
+## download
+
+	mkdir -p ~/ros/src/vicon-datastream-sdk && git@github.com:benjaminabruzzo/vicon-datastream-sdk.git
+	git init && git remote add gh git@github.com:benjaminabruzzo/vicon-datastream-sdk.git
+	git pull gh master
+
 ## Building
 
 ````
-mkdir build
-cd build
-cmake ..
+mkdir build && cd build && cmake ..
 make
 ````
 
